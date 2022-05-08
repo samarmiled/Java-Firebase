@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Edit Student"
+        android:background="@color/colorPrimaryLight"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Name"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/etSpecialite"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Spécialité"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/etBac"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Baccalauréat"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Phone Number"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Email Adress"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/etMoyBac"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Moyenne Baccaulauréat"
+        android:paddingLeft="20dp" />
+    <EditText
+        android:id="@+id/etImage"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded"
+        android:hint="Image "
+        android:paddingLeft="20dp" />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:textSize="22dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

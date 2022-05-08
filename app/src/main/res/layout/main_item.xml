@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/samar"
+            android:layout_centerVertical="true"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:id="@+id/nametext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/specialitetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Specialite"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img"
+            android:layout_below="@id/nametext"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/emailtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Phone"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img"
+            android:layout_below="@id/specialitetext"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/phonetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Phone"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_toRightOf="@id/img"
+            android:layout_below="@id/emailtext"
+            android:layout_marginLeft="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/phonetext"
+            android:layout_marginTop="9dp">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="4dp"
+
+                android:text="Edit"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
